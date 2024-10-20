@@ -4,3 +4,5 @@ Text&cChat on tosi simppelöity keskustelu palsta missä käyttäjä voi rekist�
 Käyttäjä pystyy päivittämään oman bion haluamansa tekstin. Profiili kuvaa ei valitettavasti pysty laittamaan. 
 Kommenttejä voi poistaa ja niille pystyy antaa liken ja disliken.
 Selain toimii myös puhelimella.
+
+Käyttääkseen sovellusta, käytä haluamaasi koodaus softaa ja käynnistä koodi sieltä main.py filestä!
