@@ -1,4 +1,6 @@
 # Keskustelu-sovellus
 
-Tämän sovelluksen tarkoitus alustavasti on olla sivu missä voi keskustellu muitten kanssa ja mahdollisesti yksityisviestejä omassa chatissa.
-Käyttäjät rekisteröivät sivulle ja tekevät oman profiilin.
+Text&cChat on tosi simppelöity keskustelu palsta missä käyttäjä voi rekistöridä oman käyttäjänsä sivulle ja kirjoittaa mitä tahansa haluaa. Muut käyttäjät voivat kommentoida muitten tekemiä tekstejä.
+Käyttäjä pystyy päivittämään oman bion haluamansa tekstin. Profiili kuvaa ei valitettavasti pysty laittamaan. 
+Kommenttejä voi poistaa ja niille pystyy antaa liken ja disliken.
+Selain toimii myös puhelimella.
