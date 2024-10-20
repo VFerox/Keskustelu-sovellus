@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <div class="profile-image mb-3">
+                {% if user.profile and user.profile.profile_image %}
+                    <img src="{{ user.profile.profile_image }}" alt="Profile Image" class="img-fluid rounded-circle" style="max-width: 150px;">
+                {% else %}
+                    <img src="https://via.placeholder.com/150" alt="No Profile Image" class="img-fluid rounded-circle">
+                {% endif %}
+            </div>
+            <div class="bio-section">
+                <h4>Bio</h4>
+                <p id="updatedBio">
+                    {% if user.profile and user.profile.bio %}
+                        {{ user.profile.bio }}
+                    {% else %}
+                        No bio available.
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <h4>Edit Your Profile</h4>
+            <form method="POST" id="profileForm">
+                <div class="form-group">
+                    <label for="bio">Update Bio</label>
+                    <textarea class="form-control" name="bio" id="bio" rows="4" placeholder="Enter a new bio..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="profile_image">Update Profile Image URL</label>
+                    <input type="text" class="form-control" name="profile_image" id="profile_image" value="{{ user.profile.profile_image if user.profile else '' }}">
+                </div>
+                <button type="submit" class="btn btn-primary">Update Profile</button>
+            </form>
+
+            <div id="successMessage" class="alert alert-success mt-3" style="display:none;">Profile updated successfully!</div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+
+
