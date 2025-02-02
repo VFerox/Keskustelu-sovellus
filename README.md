@@ -4,8 +4,8 @@ Chat&Watch on simppelöity keskustelu palsta missä käyttäjä voi rekistörid�
 Käyttäjä pystyy päivittämään oman bion haluamansa tekstin ja päivittämään profiilikuvaansa.
 Sovellus tulee olemaan toiminnallinen myös puhelimen selaimella.
 
-2.2.2025 (huomasin palautuksen aikana kurssisivulta että javascriptiä ei saanut käyttää niin seuraavaan palautukseen korjaan asian)
-Käytännöllisyys:
+**2.2.2025 (huomasin palautuksen aikana kurssisivulta että javascriptiä ei saanut käyttää niin seuraavaan palautukseen korjaan asian)
+Käytännöllisyys:**
 
 -sovelluksessa pystyy lisäämään tekstiä, kommentoimaan muitten teksteihin ja myös poistamaan tekstis/kommentit
 
@@ -17,7 +17,7 @@ Käytännöllisyys:
 
 -käyttäjä pystyy tekemään oman käyttäjänsä
 
-Seuraavaan palautukseen haluaisin lisätä:
+**Seuraavaan palautukseen haluaisin lisätä:**
 
 -Kommentteihin profiilien nimien mukaan myös profiilien kuvat
 
