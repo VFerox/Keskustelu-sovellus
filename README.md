@@ -10,19 +10,19 @@ Sovellus tulee olemaan toiminnallinen myös puhelimen selaimella.**
 
 16.3
 
--sovelluksessa pystyy lisäämään tekstiä, kommentoimaan muitten teksteihin ja myös poistamaan tekstis/kommentit.
+- sovelluksessa pystyy lisäämään tekstiä, kommentoimaan muitten teksteihin ja myös poistamaan tekstis/kommentit.
 
--pystyy antamaan likejä ja dislikejä teksteille.
+- pystyy antamaan likejä ja dislikejä teksteille.
 
--sovellus toimii puhelimen selaimella.
+- sovellus toimii puhelimen selaimella.
 
--käyttäjä pystyy tekemään oman käyttäjänsä.
+- käyttäjä pystyy tekemään oman käyttäjänsä.
 
 30.3
 
--Olen korjaillut SQL databasea ja uskon että ne ovat tällä hetkellä ok tasolla, parantelen niitä lisää vielä.
+- Olen korjaillut SQL databasea ja uskon että ne ovat tällä hetkellä ok tasolla, parantelen niitä lisää vielä.
 
--Profiilin muokkaus ei ole vielä kokonaan valmis, siinä tullut vaikeuksia eteen.
+- Profiilin muokkaus ei ole vielä kokonaan valmis, siinä tullut vaikeuksia eteen.
 
 - *seuraavaksi tavoitteena olisi että käyttäjä pystyisi muokkaamaan sivun light/dark modea,
 
@@ -32,5 +32,5 @@ parantaa sivun ulkonäköä paremman näköiseksi ja yleisesti parantamaan koodi
 
 hakupalkki keskusteluille.*
 
--Otan vastaan ideoita miten voisin parantaa sivun ulkonäköä paremmaksi silmille ja mitä pieni yksityiskohtia parantaa että se näyttäisi paremmalta!
+- Otan vastaan ideoita miten voisin parantaa sivun ulkonäköä paremmaksi silmille ja mitä pieni yksityiskohtia parantaa että se näyttäisi paremmalta!
 
