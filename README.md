@@ -27,3 +27,5 @@ Sovellus tulee olemaan toiminnallinen myös puhelimen selaimella.**
 
 parantaa profiilin muokkausta sujuvaksi ja mahdollisesti lisätä kuvia keskusteluihin*
 
+-Otan vastaan ideoita miten voisin parantaa sivun ulkonäköä paremmaksi silmille ja mitä pieni yksityiskohtia parantaa että se näyttäisi paremmalta!
+
