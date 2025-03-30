@@ -10,7 +10,7 @@ Sovellus tulee olemaan toiminnallinen myös puhelimen selaimella.**
 
 16.3
 
-- sovelluksessa pystyy lisäämään tekstiä, kommentoimaan muitten teksteihin ja myös poistamaan tekstis/kommentit.
+- sovelluksessa pystyy lisäämään tekstiä, kommentoimaan muitten teksteihin ja myös poistamaan tekstit/kommentit.
 
 - pystyy antamaan likejä ja dislikejä teksteille.
 
@@ -32,5 +32,4 @@ parantaa sivun ulkonäköä paremman näköiseksi ja yleisesti parantamaan koodi
 
 hakupalkki keskusteluille.*
 
-- Otan vastaan ideoita miten voisin parantaa sivun ulkonäköä paremmaksi silmille ja mitä pieni yksityiskohtia parantaa että se näyttäisi paremmalta!
 
