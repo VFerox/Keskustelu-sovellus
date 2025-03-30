@@ -9,7 +9,7 @@ Käyttäjä pystyy päivittämään oman bion haluamansa tekstin ja päivittäm�
 Sovellus tulee olemaan toiminnallinen myös puhelimen selaimella.**
 
 
--sovelluksessa pystyy lisäämään tekstiä, kommentoimaan muitten teksteihin ja myös poistamaan tekstis/kommentit.
+16.3 -sovelluksessa pystyy lisäämään tekstiä, kommentoimaan muitten teksteihin ja myös poistamaan tekstis/kommentit.
 
 -pystyy antamaan likejä ja dislikejä teksteille.
 
