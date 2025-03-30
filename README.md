@@ -3,8 +3,7 @@
 
 **Text&Chat on keskustelu palsta missä käyttäjä voi tehdä oman käyttäjänsä sivulle ja aloittaa keskusteluja erinlaisista aiheista.
 
-Muut käyttäjät voivat kommentoida muitten tekemiä tekstejä. 
-Kuvia pystyy myös lisäämään sivulle ja tavoitteena on myös mahdollistaa käyttäjän oma uniikki profiili sivu jossa pystyisi editoimaan useampia eri käyttäjän tietoja muitten nähtäväksi.
+Käyttäjät pystyvät kommentoimaan muitten aloittamia aiheita.
 
 Käyttäjä pystyy päivittämään oman bion haluamansa tekstin ja päivittämään profiilikuvaansa.
 Sovellus tulee olemaan toiminnallinen myös puhelimen selaimella.**
