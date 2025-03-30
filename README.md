@@ -25,7 +25,9 @@ Sovellus tulee olemaan toiminnallinen myös puhelimen selaimella.**
 
 *seuraavaksi tavoitteena olisi että käyttäjä pystyisi muokkaamaan sivun light/dark modea,
 
-parantaa profiilin muokkausta sujuvaksi ja mahdollisesti lisätä kuvia keskusteluihin*
+parantaa profiilin muokkausta sujuvaksi ja mahdollisesti lisätä kuvia keskusteluihin,
+
+parantaa sivun ulkonäköä paremman näköiseksi.*
 
 -Otan vastaan ideoita miten voisin parantaa sivun ulkonäköä paremmaksi silmille ja mitä pieni yksityiskohtia parantaa että se näyttäisi paremmalta!
 
