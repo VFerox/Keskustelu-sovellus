@@ -21,7 +21,7 @@ Sovellus tulee olemaan toiminnallinen myös puhelimen selaimella.**
 
 -Profiilin muokkaus ei ole vielä kokonaan valmis, siinä tullut vaikeuksia eteen.
 
-*seuraavaksi tavoitteena olisi että käyttäjä pystyisi muokkaamaan sivun light/dark modea,
+30.3- *seuraavaksi tavoitteena olisi että käyttäjä pystyisi muokkaamaan sivun light/dark modea,
 
 parantaa profiilin muokkausta sujuvaksi ja mahdollisesti lisätä kuvia keskusteluihin,
 
