@@ -1,7 +1,6 @@
 # Keskustelu-sovellus
 
 
-
 **Text&Chat on keskustelu palsta missä käyttäjä voi tehdä oman käyttäjänsä sivulle ja aloittaa keskusteluja erinlaisista aiheista.
 
 Muut käyttäjät voivat kommentoida muitten tekemiä tekstejä. 
