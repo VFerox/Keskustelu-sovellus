@@ -8,8 +8,8 @@ Käyttäjät pystyvät kommentoimaan muitten aloittamia aiheita.
 Käyttäjä pystyy päivittämään oman bion haluamansa tekstin ja päivittämään profiilikuvaansa.
 Sovellus tulee olemaan toiminnallinen myös puhelimen selaimella.**
 
-
-16.3 -sovelluksessa pystyy lisäämään tekstiä, kommentoimaan muitten teksteihin ja myös poistamaan tekstis/kommentit.
+16.3
+-sovelluksessa pystyy lisäämään tekstiä, kommentoimaan muitten teksteihin ja myös poistamaan tekstis/kommentit.
 
 -pystyy antamaan likejä ja dislikejä teksteille.
 
@@ -17,11 +17,12 @@ Sovellus tulee olemaan toiminnallinen myös puhelimen selaimella.**
 
 -käyttäjä pystyy tekemään oman käyttäjänsä.
 
+30.3
 -Olen korjaillut SQL databasea ja uskon että ne ovat tällä hetkellä ok tasolla, parantelen niitä lisää vielä.
 
 -Profiilin muokkaus ei ole vielä kokonaan valmis, siinä tullut vaikeuksia eteen.
 
-30.3- *seuraavaksi tavoitteena olisi että käyttäjä pystyisi muokkaamaan sivun light/dark modea,
+- *seuraavaksi tavoitteena olisi että käyttäjä pystyisi muokkaamaan sivun light/dark modea,
 
 parantaa profiilin muokkausta sujuvaksi ja mahdollisesti lisätä kuvia keskusteluihin,
 
