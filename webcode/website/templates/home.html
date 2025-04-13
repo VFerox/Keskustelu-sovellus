@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block title %}Text&Chat{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Text&Chat</h1>
+    
+    {% if user_id %}
+    <form method="POST" action="/new_note" class="mb-4">
+        <div class="form-group">
+            <label for="title">Note title:</label>
+            <input type="text" class="form-control" id="title" name="title" required>
+        </div>
+        <div class="form-group">
+            <label for="content">Content:</label>
+            <textarea class="form-control" id="content" name="content" rows="3" required></textarea>
+        </div>
+        <div class="form-group">
+            <label>Categories:</label>
+            <div class="categories-list">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="categories" value="1" id="cat1">
+                    <label class="form-check-label" for="cat1">Question</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="categories" value="2" id="cat2">
+                    <label class="form-check-label" for="cat2">Discussion</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="categories" value="3" id="cat3">
+                    <label class="form-check-label" for="cat3">Announcement</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="categories" value="4" id="cat4">
+                    <label class="form-check-label" for="cat4">Other</label>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Create Note</button>
+    </form>
+    {% endif %}
+
+    <div class="notes-list">
+        {% for note in notes %}
+        <div class="note-card mb-4 p-3 border rounded">
+            <h5>{{ note.title }}</h5>
+            <p>{{ note.main_content }}</p>
+            {% if note.categories %}
+            <div class="categories mb-2">
+                <small class="text-muted">Categories: {{ note.categories }}</small>
+            </div>
+            {% endif %}
+            
+            <div class="note-actions">
+                <div class="votes mb-2">
+                    <form method="POST" action="/like" class="d-inline">
+                        <input type="hidden" name="note_id" value="{{ note.id }}">
+                        <button type="submit" class="btn btn-sm {% if note.user_vote == 1 %}btn-primary{% else %}btn-outline-primary{% endif %}">
+                            Like ({{ note.likes or 0 }})
+                        </button>
+                    </form>
+                    <form method="POST" action="/dislike" class="d-inline">
+                        <input type="hidden" name="note_id" value="{{ note.id }}">
+                        <button type="submit" class="btn btn-sm {% if note.user_vote == 0 %}btn-danger{% else %}btn-outline-danger{% endif %}">
+                            Dislike ({{ note.dislikes or 0 }})
+                        </button>
+                    </form>
+                </div>
+                
+                {% if note.replies %}
+                <div class="replies mb-3">
+                    <h6>Replies:</h6>
+                    {% for reply in note.replies %}
+                    <div class="reply p-2 mb-2 bg-light rounded">
+                        <small class="text-muted">{{ reply.username }} replied:</small>
+                        <p class="mb-1">{{ reply.content }}</p>
+                        <small class="text-muted">{{ reply.sent_at }}</small>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+                
+                {% if user_id %}
+                <form method="POST" action="/reply/{{ note.id }}" class="reply-form">
+                    <div class="form-group">
+                        <label for="reply{{ note.id }}">Add a reply:</label>
+                        <textarea class="form-control mb-2" id="reply{{ note.id }}" name="content" rows="2" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-sm btn-secondary">Send Reply</button>
+                </form>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+
+
+
+
+
