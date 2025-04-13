@@ -32,4 +32,20 @@ Sovellus tulee olemaan toiminnallinen myös puhelimen selaimella.**
 
 - hakupalkki keskusteluille.*
 
+13.4
+
+- Korjattu feedbackin kertomat ongelmat koodissa ja päivitetty niin että se seuraa nyt kunnolla kurssin ohjeita, sovelluksessa ei tällä hetkellä ole kaikkia piirteitä
+  mitä aikaisemmin on ollut, koska jouduin uusimaan koodia niin paljon. Seuraavassa dediksessä tuon ne takaisin.
+
+- Sovelluksin koodi seuraa nyt tarkasti kurssin ohjeita ja ei sisällä ylimääräisiä oikomisia yms.
+  
+- Lisätty kategoriat sovelluksen noteihin.
+
+- Lisätty vastaus ominaisuus muitten noteihin.
+
+- Lisätty profiiliin statukset omista noteista.
+
+- Seuraavaksi viimeistelen koodia/parannan lukuisia kohtia ja lisään profiiliin toimintoja joita en kerennyt vielä saaha takaisin.
+
+
 
