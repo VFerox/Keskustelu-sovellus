@@ -8,11 +8,11 @@ Käyttäjät voivat luoda tilin, lisätä muistiinpanoja, vastata niihin, tykät
 ```bash
 python -m venv venv
 venv\Scripts\activate
-pip install Flask Faker
+pip install Flask Faker 
 python load_test.py        
 flask run
 
-Ominaisuudet
+**Ominaisuudet**
 
 - Rekisteröityminen ja kirjautuminen CSRF-suojauksella
 
@@ -26,7 +26,7 @@ Ominaisuudet
 
 - Sivuittaminen ja suorituskykyindeksit
 
- Suorituskykytestaus
+ **Suorituskykytestaus**
 
 Luotiin 10 000 muistiinpanoa ja 50 000 vastausta:
 
