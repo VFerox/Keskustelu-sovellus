@@ -27,6 +27,7 @@ Ominaisuudet
 - Sivuittaminen ja suorituskykyindeksit
 
  Suorituskykytestaus
+
 Luotiin 10 000 muistiinpanoa ja 50 000 vastausta:
 
 10 000 muistiinpanoa lisätty: 3,45 s
