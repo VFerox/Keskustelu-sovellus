@@ -2,19 +2,6 @@
 
 Text&Chat
 
-Features
-
--Rekisteröityminen ja kirjautuminen CSRF-suojauksella
-
--Luo, muokkaa, poista muistiinpanoja ja vastauksia
-
--Avainsanahaku
-
--Tykkää/ei-tykkää käyttäjien noteja
-
--Luokat ja käyttäjäprofiilien tilastot
-
--Sivutus- ja suorituskykyindeksit
 
 16.3
 
@@ -56,8 +43,18 @@ Features
 - Seuraavaksi viimeistelen koodia/parannan lukuisia kohtia ja lisään profiiliin toimintoja joita en kerennyt vielä saaha takaisin.
 
 4.5
+- Korjattu Internal Server Errorit
 
-- Lisätty performance testing koodiin, 
+- Kommentointi ongelma korjattu
+
+- Profiiliin pääsy korjattu
+
+- Tykkäyksien ja ei-tykkäyksien anto korjattu
+
+- Koodi yleisesti siistitty ja korjatty
+
+- Korjattu puutteet tarkastuksissa ja turvallisuudessa
+
 
 
 
