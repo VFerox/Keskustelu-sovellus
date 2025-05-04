@@ -9,7 +9,7 @@ Käyttäjät voivat luoda tilin, lisätä muistiinpanoja, vastata niihin, tykät
 python -m venv venv
 venv\Scripts\activate
 pip install Flask Faker
-python load_test.py        # generoi suuren datamäärän
+python load_test.py        
 flask run
 
 ## Ominaisuudet
