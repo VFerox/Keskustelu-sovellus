@@ -12,7 +12,7 @@ pip install Flask Faker
 python load_test.py        
 flask run
 
-## Ominaisuudet
+Ominaisuudet
 
 - Rekisteröityminen ja kirjautuminen CSRF-suojauksella
 
@@ -26,7 +26,7 @@ flask run
 
 - Sivuittaminen ja suorituskykyindeksit
 
-## Suorituskykytestaus
+ Suorituskykytestaus
 Luotiin 10 000 muistiinpanoa ja 50 000 vastausta:
 
 10 000 muistiinpanoa lisätty: 3,45 s
