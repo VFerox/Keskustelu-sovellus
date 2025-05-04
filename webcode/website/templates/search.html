@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}Search{% endblock %}
+
+{% block content %}
+  <h1 class="mb-4">Search results for “{{ q }}”</h1>
+  <div class="list-group mb-4">
+    {% for r in results %}
+      <a href="/note/{{ r.id }}" class="list-group-item list-group-item-action">
+        <h5 class="mb-1">{{ r.title }}</h5>
+        <p class="mb-1">{{ r.content | nl2br | safe }}</p>
+        <small class="text-muted">By {{ r.username }}</small>
+      </a>
+    {% endfor %}
+  </div>
+
+  <nav aria-label="Page navigation">
+    {% if page > 1 %}
+      <a
+        href="{{ url_for('search', q=q, page=page-1) }}"
+        class="btn btn-outline-secondary btn-sm"
+      >
+        ← Prev
+      </a>
+    {% endif %}
+    {% for p in range(1, total_pages+1) %}
+      {% if p == page %}
+        <span class="btn btn-secondary btn-sm">{{ p }}</span>
+      {% else %}
+        <a
+          href="{{ url_for('search', q=q, page=p) }}"
+          class="btn btn-outline-secondary btn-sm"
+        >
+          {{ p }}
+        </a>
+      {% endif %}
+    {% endfor %}
+    {% if page < total_pages %}
+      <a
+        href="{{ url_for('search', q=q, page=page+1) }}"
+        class="btn btn-outline-secondary btn-sm"
+      >
+        Next →
+      </a>
+    {% endif %}
+  </nav>
+{% endblock %}
+

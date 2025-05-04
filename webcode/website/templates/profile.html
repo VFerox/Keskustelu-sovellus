@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+  <h2 class="mb-4">Your Profile</h2>
+  <h3>{{ profile.username }}</h3>
+  <p>{{ profile.bio }}</p>
+
+  <div class="card mb-4">
+    <div class="card-body">
+      <h4>Your Statistics</h4>
+      <ul class="list-unstyled">
+        <li>Notes created: {{ profile.note_count or 0 }}</li>
+        <li>Replies made: {{ profile.message_count or 0 }}</li>
+        <li>Likes given: {{ profile.likes_given or 0 }}</li>
+        <li>Dislikes given: {{ profile.dislikes_given or 0 }}</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card mb-4">
+    <div class="card-body">
+      <h4>Your Notes</h4>
+      {% if notes %}
+        {% for note in notes %}
+          <div class="note-card mb-3 p-3 border rounded">
+            <h5>{{ note.title }}</h5>
+            <p>{{ note.content | nl2br | safe }}</p>
+            {% if note.categories %}
+              <p>
+                <small class="text-muted">
+                  Categories: {{ note.categories }}
+                </small>
+              </p>
+            {% endif %}
+            <small class="text-muted d-block mt-2">Created: {{ note.sent_at }}</small>
+              Created: {{ note.sent_at }}
+            </small>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p>You haven't created any notes yet.</p>
+      {% endif %}
+    </div>
+  </div>
+
+  <a href="/logout" class="btn btn-primary">Logout</a>
+{% endblock %}
+
+
+
+
+
