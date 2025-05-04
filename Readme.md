@@ -13,6 +13,7 @@ python load_test.py
 flask run
 
 ## Ominaisuudet
+
 - Rekisteröityminen ja kirjautuminen CSRF-suojauksella
 
 - Muistiinpanojen ja vastausten luominen, muokkaaminen ja poistaminen
