@@ -1,12 +1,20 @@
 # Keskustelu-sovellus
 
+Text&Chat
 
-**Text&Chat on keskustelu palsta missä käyttäjä voi tehdä oman käyttäjänsä sivulle ja aloittaa keskusteluja erinlaisista aiheista.
+Features
 
-Käyttäjät pystyvät kommentoimaan muitten aloittamia aiheita.
+-Rekisteröityminen ja kirjautuminen CSRF-suojauksella
 
-Käyttäjä pystyy päivittämään oman bion haluamansa tekstin ja päivittämään profiilikuvaansa.
-Sovellus tulee olemaan toiminnallinen myös puhelimen selaimella.**
+-Luo, muokkaa, poista muistiinpanoja ja vastauksia
+
+-Avainsanahaku
+
+-Tykkää/ei-tykkää käyttäjien noteja
+
+-Luokat ja käyttäjäprofiilien tilastot
+
+-Sivutus- ja suorituskykyindeksit
 
 16.3
 
@@ -46,6 +54,10 @@ Sovellus tulee olemaan toiminnallinen myös puhelimen selaimella.**
 - Lisätty profiiliin statukset omista noteista.
 
 - Seuraavaksi viimeistelen koodia/parannan lukuisia kohtia ja lisään profiiliin toimintoja joita en kerennyt vielä saaha takaisin.
+
+4.5
+
+- Lisätty performance testing koodiin, 
 
 
 
